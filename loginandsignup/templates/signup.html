@@ -1,0 +1,7 @@
+<h1>login system</h1>
+<form method="post">{% csrf_token %}
+<input type="text" placeholder="username" {{form.username}}
+<input type="password" placeholder="password" {{form.password1}}
+<input type="password" placeholder="password" {{form.password2}}
+<button type="submit" value="signup">signup</button>
+</form>
